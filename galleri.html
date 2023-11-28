@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Forside</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <h1>PASSION FOR THE</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="galleri.html">Galleri</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Galleri</h2>
+
+        <div class="wrapper">
+            <div class="carousel">
+                <ul class="slides">
+                    <input type="radio" name="radio-buttons" id="img-1" checked />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="fotos/img4.webp">
+                        </div>
+                        <div class="carousel-controls">
+                            <label for="img-3" class="prev-slide">
+                                <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-2" class="next-slide">
+                                <span>&rsaquo;</span>
+                            </label>
+                        </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-2" />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="fotos/img2.webp">
+                        </div>
+                        <div class="carousel-controls">
+                            <label for="img-1" class="prev-slide">
+                                <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-3" class="next-slide">
+                                <span>&rsaquo;</span>
+                            </label>
+                        </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-3" />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="fotos/img3.webp">
+                        </div>
+                        <div class="carousel-controls">
+                            <label for="img-2" class="prev-slide">
+                                <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-4" class="next-slide">
+                                <span>&rsaquo;</span>
+                            </label>
+                        </div>
+                    </li>
+                    <input type="radio" name="radio-buttons" id="img-4" />
+                    <li class="slide-container">
+                        <div class="slide-image">
+                            <img src="fotos/img6.webp">
+                        </div>
+                        <div class="carousel-controls">
+                            <label for="img-3" class="prev-slide">
+                                <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-1" class="next-slide">
+                                <span>&rsaquo;</span>
+                            </label>
+                        </div>
+                    </li>
+                    <div class="carousel-dots">
+                        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                        <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer></footer>
+    <script src="java.js"></script>
+</body>
+
+</html>
