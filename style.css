@@ -4,7 +4,7 @@
 }
 body {
   margin: 0;
-  background-color: white;
+  background-color: #102613;
 }
 img {
   width: 100%;
@@ -20,19 +20,12 @@ footer {
 }
 
 /******** Menu *******/
-.header_forside {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  background-image: url("fotos/Hero.webp");
-  background-size: cover;
-  min-height: 545px;
-}
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  padding: 20px;
+  background-color: #102613;
 }
 
 .logo {
@@ -70,6 +63,7 @@ nav {
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
+  background-color: #102613;
 }
 
 .menu a:hover {
@@ -135,22 +129,11 @@ nav {
 }
 
 /******** Forside *******/
-.hero {
-  position: absolute;
-}
-
-.video_billede {
-  position: absolute;
-  top: 90%;
-  width: 50%;
-  left: 27%;
-  padding-bottom: 30px;
-}
-
 h2 {
   font-family: "Playfair Display", serif;
+  font-weight: 400;
   font-size: 3rem;
-  color: #3e3121;
+  color: #f5d08a;
   text-align: center;
 }
 
